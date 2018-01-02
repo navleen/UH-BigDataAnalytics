@@ -1,0 +1,5 @@
+Here I have written the code to calculate the linear regression equation and the coeffiecient of determination that is the value of R square. The matrix.r file uploaded here on the server consists of the code which when executed in R on the server will conclude with an 8*1 matrix which is the value of the beta vector. 
+
+In my code, first of all i have read my csv file which is then further converted to an 10*10 matrix. This matrix is further enhanced into an 8* matrix (which is the value of Q). Then , i have find the value of Q inverse using the solve function and the value of XY transpose as well. Then i have multiplied the value of Q inverse matrix and XYTranspose to get my final result.
+
+Also, i have uploaded the code to convert the csv file to RDD's which can further be used to calculate the Linear regression in spark/scala.
